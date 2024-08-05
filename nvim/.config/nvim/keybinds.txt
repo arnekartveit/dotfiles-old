@@ -1,0 +1,138 @@
+all leader  binds:
+
+q = quit
+w = save
+e
+r
+t
+y
+u
+i
+o
+p
+å
+
+a
+s
+d = neo-tree ( df = open tree, dd = delete, dc = copy, dr = refresh ) 
+f = telescope ( ff = fuzy_find, fg = live_grep, fb = buffers, fh = help )
+g
+h = target left
+j = target down
+k = target up
+l = target right
+ø
+æ
+
+z
+x
+c = ( ca = code action, cd = definition, cf = lsp-format )
+v = split ( v = split vertical, V = split horizontal )
+b = buffer ( b = next buffer, B = previous buffer ) 
+n
+m
+
+
+****** Non leader binds NORMAL MODE*******
+q = ( q = start macro, Q = ... )
+w = ( w = jump to begining of next word, W = jump to begining of next word skip punctation characters )
+e = ( e = jump to end of word, E = same )
+r = ( r = replace one char, R = continuas replace till quit )
+t = ( t = ..., T = ... )
+y = ( y = yank marked to system clipboard, yy = tank line to system clipboard, yip = yank inner paragraph, Y = ... ) 
+u = ( u = undo latest change, U = undo all latest cahnges on that line ) 
+i = ( i = insert mode before, I = inset mode at start of line ) 
+o = ( o = write new line below, O = write new line above )
+p = ( p = paste below, P = paste above )
+å = ( å = ..., Å = ... )
+
+a = ( a = insert mode after, A = insert mode end of line )
+s = ( s = delete char and insert mode, S = delete line and insert mode )
+d = ( dd = delete line, dip = delete whole paragraph, D = ... )
+f = ( f = F = ... )
+g = ( gg = move carret top of page, G = move carret bottom of page )
+h = ( h = move carret left, H = move carret to top of view )
+j = ( j = move carret down, J = ... )
+k = ( k = move carret up, K = lsp hover info )
+l = ( l = move carret right, L = moce carret to bottom of view )
+ø = ( ø = ..., Ø = ... )
+æ = ( æ = ..., Æ = ... )
+
+z = ( zz = center view around carrot, ZZ = save and quit, ZQ = quit without checking chanues )
+x = ( x = delete character, X = character before )
+c = change ( cw = change till end of word, ciw = change whole word, C = delete to end of line and insert (much more) )
+v = ( v = go to visual mode, V = mark whole line and go to visual mode )
+b = ( b = jump to beginning of current / previous word, B = same) 
+n = ( n = jump to next "latest search, N = jump to previous "latest search" )
+m = ( m... = mark this carret position as ..., M = move carret to middel of view ) 
+
+* = search whole word under carret
+'... = jump to marked position ...
+
+****** Non leader binds INSERT MODE*******
+(Obviously normal writiing but also some smart stuff)
+q
+w
+e
+r
+t
+y
+u
+i
+o
+p
+å
+
+a
+s
+d
+f
+g
+h
+j (jj = esc)
+k
+l
+ø
+æ
+
+z
+x
+c
+v
+b
+n
+m
+
+
+****** Non leader binds VISUAL MODE*******
+q
+w
+e
+r
+t
+y
+u
+i
+o
+p
+å
+
+a
+s
+d
+f
+g
+h = move carret left
+j = move carret down
+k = move carret up
+l = move carret right
+ø
+æ
+
+z
+x
+c
+v
+b
+n
+m
